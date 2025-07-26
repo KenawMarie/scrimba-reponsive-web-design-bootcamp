@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
 /*  Fonts
 -----
 font-family: 'Lora', serif;
@@ -7,6 +12,10 @@ font-family: 'Ubuntu', sans-serif;
 body {
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
+}
+
+img{
+    max-width: 100%;
 }
 
 /* =================
@@ -99,4 +108,24 @@ nav a:focus {
     nav li {
         margin: .5em 0;
     }
+}
+
+
+/* ********************index.html */
+.container1{
+    background-color: skyblue;
+    display: flex;
+}
+
+.section1{
+    background-color:deeppink ;
+    margin: 2em 0;
+}
+.section1 .life{
+    max-height:10%;
+    width: 100%;
+}
+.sidebar1{
+    background-color: lightgreen;
+    margin: 2em;
 }
